@@ -1,6 +1,6 @@
 # README Generator
 
-  ![404 Badge](https://img.shields.io/badge/No_License_Chosen-red)
+  ![License: GNU GPL v3](https://img.shields.io/badge/GNU_License-purple)
 
 ## Description
 
@@ -9,7 +9,7 @@
   - Using this tool on future projects will save time that could be better used on the project itself rather than setting time aside to plan out and format a README.md file from scratch.
   - I learned how to use node, npm, and inquirer to create a user friendly command line application that takes user input and utilizes it for a practical, reusable application.
   - In the future I plan to implement more licensing options as well as  a way to add screenshots of the project for a 'Mock-Up' section.
-  - https://google.com
+  - https://github.com/PRich57/readme-generator
 
 ## Table of Contents
 
@@ -30,8 +30,14 @@
   
 ## License
 
-  
-  No license has been selected for this project.
+  [GNU Link](https://www.gnu.org/licenses/gpl-3.0.en.html)
+  This project is covered under the GNU GPL v3 License
+    
+    Permissions of this strong copyleft license are conditioned on 
+    making available complete source code of licensed works and 
+    modifications, which include larger works using a licensed work, 
+    under the same license. Copyright and license notices must be 
+    preserved. Contributors provide an express grant of patent rights.
 
 ## Contributing
 
