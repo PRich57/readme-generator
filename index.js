@@ -60,6 +60,16 @@ const questions = [
     message: 'If you have written any tests for your application please provide examples of how to run them here.',
     name: 'tests',
   },
+  {
+    type: 'input',
+    message: 'If you have written any tests for your application please provide examples of how to run them here.',
+    name: 'tests',
+  },
+  {
+    type: 'input',
+    message: 'If you have written any tests for your application please provide examples of how to run them here.',
+    name: 'tests',
+  },
 ];
 
 // TODO: Create a function to write README file
