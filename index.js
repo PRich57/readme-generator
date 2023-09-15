@@ -61,12 +61,7 @@ const questions = [
     name: 'tests',
   },
 ];
-// inquirer
-// .prompt(questions)
-// .then((data) => {
-//   console.log(generateMarkdown(data));
 
-// })
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   const myMarkdown = generateMarkdown(data)
