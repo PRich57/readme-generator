@@ -1,5 +1,5 @@
 # 
-![Static Badge](https://img.shields.io/badge/MIT_license-green)
+
 ## Description
 
   - 
@@ -24,9 +24,7 @@
   
 ## Usage
   
-  step 1
-step 2
-
+  
   
 ## License
 
@@ -42,7 +40,7 @@ step 2
 
 ## Questions
 
-  GitHub: [undefined](https://github.com/undefined)
-  Email: undefined
+  GitHub: [](https://github.com/)
+  Email: 
 
   

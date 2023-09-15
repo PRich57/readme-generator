@@ -7,7 +7,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
   {
     type: 'input',
-    message: 'What is the title of your project?',
+    message: `What's the title of your project?`,
     name: 'title',
   },
   {
@@ -41,14 +41,20 @@ const questions = [
     name: 'deploy',
   },
   {
-    type: 'editor',
+    type: 'input',
     message: 'In your default editor, please describe the steps required to install your project.',
     name: 'installation',
   },
   {
-    type: 'editor',
+    type: 'input',
     message: 'In your default editor, please provide instructions for the usage of your project.',
     name: 'usage',
+  },
+  {
+    type: 'list',
+    message: 'What license would you like to use for your project?',
+    choices: ['MIT', 'BSD', 'GNU'],
+    name: 'license',
   },
   {
     type: 'input',
@@ -63,13 +69,13 @@ const questions = [
   {
     // add github, email and license questions
     type: 'input',
-    message: 'If you have written any tests for your application please provide examples of how to run them here.',
-    name: 'tests',
+    message: `What's your GitHub username?`,
+    name: 'github',
   },
   {
     type: 'input',
-    message: 'If you have written any tests for your application please provide examples of how to run them here.',
-    name: 'tests',
+    message: `What's your email address?`,
+    name: 'email',
   },
 ];
 
@@ -86,7 +92,7 @@ function init() {
   inquirer
     .prompt(questions)
     .then((data) => {
-      writeToFile('README.md', data)
+      writeToFile('./output/README.md', data)
     })
 }
 
