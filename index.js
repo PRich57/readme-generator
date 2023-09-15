@@ -61,6 +61,7 @@ const questions = [
     name: 'tests',
   },
   {
+    // add github, email and license questions
     type: 'input',
     message: 'If you have written any tests for your application please provide examples of how to run them here.',
     name: 'tests',
