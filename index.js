@@ -42,12 +42,12 @@ const questions = [
   },
   {
     type: 'input',
-    message: 'In your default editor, please describe the steps required to install your project.',
+    message: 'Please describe the steps required to install your project.',
     name: 'installation',
   },
   {
     type: 'input',
-    message: 'In your default editor, please provide instructions for the usage of your project.',
+    message: 'Please provide instructions for the usage of your project.',
     name: 'usage',
   },
   {
