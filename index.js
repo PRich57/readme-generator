@@ -83,7 +83,7 @@ const questions = [
 function writeToFile(fileName, data) {
   const myMarkdown = generateMarkdown(data)
   fs.writeFile(fileName, myMarkdown, (err) => {
-    err ? console.error(err) : console.log('Your README.md file has been successfully created in the file explorer menu.')
+    err ? console.error(err) : console.log(`Your generatedREADME.md file has been successfully created in the 'output' directory.`)
   })
 }
 
