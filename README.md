@@ -8,8 +8,7 @@
 - I built this project to gain knowledge on creating command line applications and to provide myself, or any other user, with a tool that will help generate a professional README file by answering questions about their project.
 - Using this tool on future projects will save time that could be better used on the project itself rather than setting time aside to plan out and format a README file from scratch.
 - I learned how to use node, npm, and inquirer to create a user friendly command line application that takes user input and utilizes it for a practical, reusable application.
-- In the future I plan to implement more licensing options as well as a way to add screenshots of the project for a 'Mock-Up' section.
-- https://google.com
+- In the future I plan to implement more licensing options as well as a way to add screenshots for a 'Mock-Up' section.
 
 ## Table of Contents
 
