@@ -10,6 +10,8 @@
 - I learned how to use node, npm, and inquirer to create a user friendly command line application that takes user input and utilizes it for a practical, reusable application.
 - In the future I plan to implement more licensing options as well as a way to add screenshots for a 'Mock-Up' section.
 
+To see the video demonstration of the app click [here!](https://drive.google.com/file/d/1HIMIxqzWHP11sl1I36QYeQQEiJLzHqsk/view)
+
 ## Table of Contents
 
 - [Installation](#installation)
